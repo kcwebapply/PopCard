@@ -53,25 +53,26 @@ public class PopCard:UIView{
         self.backgroundColor = UIColorFromRGB(0x000000)
         self.backgroundColor?.withAlphaComponent(0.4)
         //単語ラベル
-        wordLabel = UILabel(frame:CGRect(x: 10,y: 10,width: self.frame.size.width/2,height: 40))
+        wordLabel = UILabel(frame:CGRect(x: 10,y: 10,width: screenSize.width/2,height: 40))
         wordLabel.textColor = UIColor.white
-        var attributeText = NSMutableAttributedString(string: text)
+        var attributeText = NSMutableAttributedString(string: word)
         attributeText.addAttributes([ NSAttributedStringKey.underlineStyle: NSUnderlineStyle.patternDot.rawValue|NSUnderlineStyle.styleSingle.rawValue], range: NSMakeRange(0, attributeText.length))
         wordLabel.attributedText = attributeText
         self.addSubview(wordLabel)
         //発音ラベル
-        pronounceButton = UIButton(frame:CGRect(x: self.frame.size.width-70,y: 5,width: 20,height: 20))
+        pronounceButton = UIButton(frame:CGRect(x: screenSize.width-70,y: 5,width: 20,height: 20))
         pronounceButton.addTarget(self, action: #selector(PopCard.pronounceWord), for: .touchUpInside)
         pronounceButton.setImage(UIImage(named:"megaPh.png"), for: UIControlState())
         self.addSubview(pronounceButton)
         //発音クラス
         self.sayClass = SayClass(lang: lang)
-        textView = UITextView(frame:CGRect(x: 10,y: 60,width: self.frame.size.width-20,height: 90))
+        textView = UITextView(frame:CGRect(x: 10,y: 60,width: screenSize.width-20,height: 90))
         textView.backgroundColor=UIColor(red:0.0,green:0.0,blue:0.0,alpha:0.0);
         textView.textColor = UIColor.white
         textView.font =  UIFont.systemFont(ofSize: CGFloat(14))//UIFont(name: UIFont., size: 14)
         textView.isEditable = false;
         textView.isScrollEnabled=true
+        textView.text = text
         self.addSubview(textView)
         
         let buttonL = UIButton()
