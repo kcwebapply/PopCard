@@ -4,7 +4,7 @@ easily you can use wordCard.
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 #sample
-[!][Sample](sample.gif)
+![Sample](sample.gif)
 ## Features
 
 - showing wordCard easily.
