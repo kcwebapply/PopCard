@@ -78,7 +78,7 @@ public class PopCard:UIView{
         buttonL.setTitle("Tap Me!", for: UIControlState())
         buttonL.addTarget(self, action: #selector(PopCard.dawnView), for: .touchUpInside)
         buttonL.frame = CGRect(x: self.frame.size.width-30, y: 5, width: 20, height: 20)
-        let image2 = UIImage(named: "closing.png")!
+        let image2 = UIImage(named: "cancel.png")
         buttonL.setImage(image2, for: UIControlState())
         self.addSubview(buttonL)
         

@@ -12,8 +12,8 @@
 		264BE8841FBA99A1008F20E3 /* PopCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 264BE8761FBA99A1008F20E3 /* PopCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		264BE88E1FBA99C8008F20E3 /* PopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BE88D1FBA99C8008F20E3 /* PopCard.swift */; };
 		264BE8901FBA99D0008F20E3 /* SayClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BE88F1FBA99D0008F20E3 /* SayClass.swift */; };
-		264BE8921FBA99DA008F20E3 /* closing.png in Resources */ = {isa = PBXBuildFile; fileRef = 264BE8911FBA99DA008F20E3 /* closing.png */; };
 		264BE8941FBA99DF008F20E3 /* megaPh.png in Resources */ = {isa = PBXBuildFile; fileRef = 264BE8931FBA99DF008F20E3 /* megaPh.png */; };
+		264BE97C1FBABE35008F20E3 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 264BE97B1FBABE35008F20E3 /* cancel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +35,8 @@
 		264BE8831FBA99A1008F20E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		264BE88D1FBA99C8008F20E3 /* PopCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopCard.swift; sourceTree = "<group>"; };
 		264BE88F1FBA99D0008F20E3 /* SayClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SayClass.swift; sourceTree = "<group>"; };
-		264BE8911FBA99DA008F20E3 /* closing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closing.png; sourceTree = "<group>"; };
 		264BE8931FBA99DF008F20E3 /* megaPh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megaPh.png; sourceTree = "<group>"; };
+		264BE97B1FBABE35008F20E3 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		264BE8951FBA99E3008F20E3 /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				264BE8911FBA99DA008F20E3 /* closing.png */,
+				264BE97B1FBABE35008F20E3 /* cancel.png */,
 				264BE8931FBA99DF008F20E3 /* megaPh.png */,
 			);
 			path = resource;
@@ -200,7 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264BE8921FBA99DA008F20E3 /* closing.png in Resources */,
+				264BE97C1FBABE35008F20E3 /* cancel.png in Resources */,
 				264BE8941FBA99DF008F20E3 /* megaPh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
