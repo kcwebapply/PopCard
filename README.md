@@ -14,7 +14,10 @@ easily you can use wordCard.
 **initialize**
 
 ```
- popCard = PopCard(word: "eat", text: "cause to deteriorate due to the action of water, air, or an acid", lang: "en")
+ popCard = PopCard(
+    word: "eat", text: "cause to deteriorate due to the action of water, air, or an acid",
+    lang: "en"
+ )
 ```
 
 **show Up Card**
@@ -32,7 +35,7 @@ popCard.dawinView()
 -when using PreserveButton, you can use this Protocol
 ```
 public protocol popCardProtcol{
-func wordPreserve(_ word:String,text:String)
+    func wordPreserve(_ word:String,text:String)
 }
 ```
 
