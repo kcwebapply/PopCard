@@ -13,7 +13,7 @@ easily you can use wordCard.
 
 **initialize**
 
-```
+```Swift
  popCard = PopCard(
     word: "eat", text: "cause to deteriorate due to the action of water, air, or an acid",
     lang: "en"
@@ -22,18 +22,18 @@ easily you can use wordCard.
 
 **show Up Card**
 
-```
+```Swift
 popCard.showView()
 ```
 
 **Hide  Card**
-```
+```Swift
 popCard.dawinView()
 ```
 
 **Protocol**
 -when using PreserveButton, you can use this Protocol
-```
+```Swift
 public protocol popCardProtcol{
     func wordPreserve(_ word:String,text:String)
 }
@@ -41,7 +41,7 @@ public protocol popCardProtcol{
 
 and set delegate.
 
-```
+```Switt
 popCard.delegate = self
 ```
 
