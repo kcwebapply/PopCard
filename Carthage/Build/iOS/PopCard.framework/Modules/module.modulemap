@@ -1,0 +1,11 @@
+framework module PopCard {
+  umbrella header "PopCard.h"
+
+  export *
+  module * { export * }
+}
+
+module PopCard.Swift {
+    header "PopCard-Swift.h"
+    requires objc
+}
