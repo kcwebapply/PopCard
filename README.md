@@ -4,7 +4,7 @@ easily you can use wordCard.
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 #sample
-[Sample](sample.gif)
+[!][Sample](sample.gif)
 ## Features
 
 - showing wordCard easily.
@@ -60,4 +60,4 @@ github "kcwebapply/PopCard"
 Please file issues or submit pull requests for anything you’d like to see! We're waiting! :)
 
 ## License
-KeyboardObserver.swift is released under the MIT license. Go read the LICENSE file for more information.
+PopCard.swift is released under the MIT license. Go read the LICENSE file for more information.
