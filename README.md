@@ -1,7 +1,9 @@
 # PopCard
-easily you can use wordCard.
-
+[![apache licensed](https://img.shields.io/badge/License-Apache_2.0-d94c32.svg)](./license-apache.md)
+![Swift](https://img.shields.io/badge/Language-Swift-f88909.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+easily you can use wordCard.
 
 #sample
 ![Sample](sample.gif)
